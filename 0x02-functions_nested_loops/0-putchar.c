@@ -1,20 +1,21 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- *main - entry point
- *Description: Prgram that prints put char
- *Return: 0
+ * main - Printing the word Holberton
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+char *school_name = "_putchar";
+int letters = 0;
+
+for (letters = 0; letters <= 8; letters++)
+{
+_putchar(school_name[letters]);
+}
+_putchar('\n');
+
+return (0);
 }
