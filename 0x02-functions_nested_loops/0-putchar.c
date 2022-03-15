@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Printing the word Holberton
+ * main - Printing the word _putchar
  *
  * Return: Always 0 (success)
  */
